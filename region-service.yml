@@ -1,0 +1,16 @@
+#Application port
+server:
+  port: 8082
+
+#Eureka server uri
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+
+#database details
+db:
+  connection:
+    host: localhost
+    port: 27017
+    database: regionDB
