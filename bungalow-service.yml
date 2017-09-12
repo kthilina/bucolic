@@ -14,3 +14,8 @@ db:
     host: localhost
     port: 27017
     database: bungalowDB
+    
+#Inter-service Communication
+service:
+    communication:
+        region: region-service
