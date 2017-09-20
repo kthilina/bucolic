@@ -1,0 +1,21 @@
+zuul:
+#  Service will be mapped under the /api URI
+  prefix: /api
+  routes:
+    bungalow-service:
+      path: /bungalow-service/**
+      serviceId: BUNGALOW-SERVICE
+    region-service:
+      path: /region-service/**
+      serviceId: REGION-SERVICE
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+  instance:
+    hostname: localhost
+
+server:
+  port: 8099
