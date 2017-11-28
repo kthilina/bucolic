@@ -1,6 +1,6 @@
 #Server-Port
 server:
-  port: 8081
+  port: 8087
 
   #Eureka server uri
 eureka:
