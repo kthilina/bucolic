@@ -19,3 +19,6 @@ db:
 service:
     communication:
         region: region-service
+
+aaa:
+  dd: aa
